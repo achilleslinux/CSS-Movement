@@ -1,0 +1,78 @@
+/*For Circular motion */
+
+/*@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-150px) 
+		           rotate(-360deg);
+	}
+}
+
+
+
+#mr {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border:10px solid black;
+	border-radius: 138px;
+	background-color: black;
+	top: 10px;
+	left: 10px;
+	animation: rot 5s infinite linear;
+	font-size: 100px;
+	/*animation: rot 2.5s infinite ease-in;*/
+
+/*For Linear Motion*/	
+	
+@keyframes example {
+    0%   {background-color:white; left:101px; top:80px;}
+    25%  {background-color:white; left:301px; top:80px;}
+    50%  {background-color:white; left:301px; top:250px;}
+    75%  {background-color:white; left:101px; top:250px;}
+    100% {background-color:white; left:101px; top:80px;}
+}
+
+#mr{
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border:10px solid white;
+	border-radius: 138px;
+	background-color: white;
+	top: 80px;
+	left: 101px;
+    animation: example 4s infinite ease-in;
+    /*animation-duration: 4s;*/
+}
+
+
+#q{
+	/*position:absolute;*/
+	
+}
+#sq{
+	position:absolute;
+	top:10px;
+	left:180px;
+}
+#tq{
+	/*position:absolute;*/
+	
+	
+}
+#fq{
+	/*position:absolute;*/
+	position:absolute;
+	top:190px;
+	left:180px;
+	
+	
+}
